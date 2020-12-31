@@ -9,8 +9,9 @@ gem 'thin'
 gem 'shotgun'
 gem 'pry'
 gem 'require_all'
+gem 'rspec'
+gem 'rack-test'
 
-group :test do
-  gem 'rspec'
-  gem 'rack-test'
-end
+# group :test do
+
+# end
